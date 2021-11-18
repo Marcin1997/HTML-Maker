@@ -1,51 +1,3 @@
-/*
-
-const elements = ['b', 'span', ['a', 'text'], 'dasdasdasdasd', ['div'], 'text', ['ol', 'li']]
-
-function elementor() {
-    const body = document.querySelector('body')
-
-    const tagOne = document.createElement(elements[0])
-    body.appendChild(tagOne)
-
-
-    elements.forEach((e) => {
-        for (let i = 1; i < e.length; i++) {
-
-
-            if (Array.isArray(elements[i])) {
-                console.log(elements[i])
-                
-
-            } else {
-                let tag = elements[i]
-
-                tagOne.innerText = elements[i]
-            }
-
-
-
-        }
-    })
-
-
-
-}
-elementor()
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -78,4 +30,45 @@ function createHTML(e) {
 }
 
 
+
+
+
+/*
+
+const elements = ['b', 'span', ['a', 'text'], 'dasdasdasdasd', ['div'], 'text', ['ol', 'li']]
+
+function elementor() {
+    const body = document.querySelector('body')
+
+    const tagOne = document.createElement(elements[0])
+    body.appendChild(tagOne)
+
+
+
+        for (let i = 1; i < e.length; i++) {
+
+
+            if (Array.isArray(elements[i])) {
+                console.log(elements[i])
+
+
+            } else {
+                let tag = elements[i]
+
+                tagOne.innerText = elements[i]
+            }
+
+
+
+        }
+
+
+
+
+}
+elementor()
+
+
+
+*/
 
