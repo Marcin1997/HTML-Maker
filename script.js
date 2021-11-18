@@ -16,6 +16,7 @@ function createHTML(e) {
     const body = document.querySelector('body')
     var tag = document.createElement(e[0]);
     body.appendChild(tag)
+    console.log(tag)
     e.splice(1).forEach(function (ee) {
         // Check which sections of the array are nested arrays and create an element appending to it
         if (Array.isArray(ee)) {
